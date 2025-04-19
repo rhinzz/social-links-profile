@@ -1,17 +1,34 @@
+html,
 body {
   background-color: hsl(0, 0%, 8%);
   color: hsl(0, 0%, 100%);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Inter", sans-serif;
   font-size: 14px;
+  margin: 0;
+  padding: 0;
 }
 
 .profile-card {
-  background-color: hsl(0, 0%, 20%);
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 1rem;
+  text-align: center;
+  padding: 2rem;
   width: -moz-fit-content;
   width: fit-content;
 }
+.profile-card img {
+  width: 100px;
+  border-radius: 50%;
+}
 
 .attribution {
+  width: 100%;
+  position: absolute;
+  bottom: 3%;
   font-size: 11px;
   text-align: center;
 }

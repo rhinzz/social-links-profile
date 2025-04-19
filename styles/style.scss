@@ -5,19 +5,36 @@ $grey-700: hsl(0, 0%, 20%);
 $grey-800: hsl(0, 0%, 12%);
 $grey-900: hsl(0, 0%, 8%);
 
-body{
+html,
+body {
     background-color: $grey-900;
     color: $white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
+    margin: 0;
+    padding: 0;
 }
 
-.profile-card{
-    background-color: $grey-700;
+.profile-card {
+    background-color: $grey-800;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2rem;
     width: fit-content;
+    img{
+        width: 100px;
+        border-radius: 50%;
+    }
 }
 
 .attribution {
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
     font-size: 11px;
     text-align: center;
 }
