@@ -1,5 +1,14 @@
 body {
-  background-color: var(--grey-900);
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.profile-card {
+  background-color: hsl(0, 0%, 20%);
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .attribution {

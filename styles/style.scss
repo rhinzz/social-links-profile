@@ -6,7 +6,15 @@ $grey-800: hsl(0, 0%, 12%);
 $grey-900: hsl(0, 0%, 8%);
 
 body{
-    background-color: var(--grey-900);
+    background-color: $grey-900;
+    color: $white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.profile-card{
+    background-color: $grey-700;
+    width: fit-content;
 }
 
 .attribution {
