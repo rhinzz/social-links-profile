@@ -8,6 +8,8 @@
 
 body {
   background-color: var(--grey-900);
+  color: var(--white);
+  font-family: 'Inter', sans-serif;
 }
 
 .attribution {
