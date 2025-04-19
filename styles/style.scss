@@ -25,10 +25,16 @@ body {
     text-align: center;
     padding: 2rem;
     width: fit-content;
-    img{
+
+    img {
         width: 100px;
         border-radius: 50%;
     }
+
+    a{
+        display: block;
+    }
+
 }
 
 .attribution {
