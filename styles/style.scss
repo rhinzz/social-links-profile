@@ -66,8 +66,15 @@ body {
             border-radius: 8px;
             color: $white;
             display: block;
+            font-weight: 600;
             margin-bottom: 1rem;
             padding: 1rem;
+            text-decoration: none;
+
+            &:hover {
+                color: $grey-900;
+                background-color: $green;
+            }
         }
     }
 

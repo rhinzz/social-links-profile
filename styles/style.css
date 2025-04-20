@@ -53,8 +53,14 @@ body {
   border-radius: 8px;
   color: hsl(0, 0%, 100%);
   display: block;
+  font-weight: 600;
   margin-bottom: 1rem;
   padding: 1rem;
+  text-decoration: none;
+}
+.profile-card .link-block a:hover {
+  color: hsl(0, 0%, 8%);
+  background-color: hsl(75, 94%, 57%);
 }
 
 .attribution {
