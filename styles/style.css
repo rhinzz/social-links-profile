@@ -36,7 +36,7 @@ body {
 .profile-card .heading-block h1 {
   font-size: 1.75rem;
   font-weight: 500;
-  margin: 0.75rem 0;
+  margin: 0.5rem 0;
 }
 .profile-card .heading-block h2 {
   color: hsl(75, 94%, 57%);
