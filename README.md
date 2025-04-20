@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [TBD](https://your-live-site-url.com)
+- Live Site URL: [social-links-profile](https://rhinzz.github.io/social-links-profile/)
 
 ## My process
 
