@@ -31,7 +31,24 @@ body {
         border-radius: 50%;
     }
 
-    a{
+    .heading-block {
+        margin: 1.75rem 0;
+
+        h1{
+            font-size: 1.75rem;
+            font-weight: 500;
+            margin: 0.75rem 0;
+        }
+
+        h2{
+            color: $green;
+            font-size: 1rem;
+            margin: 0;
+        }
+
+    }
+
+    a {
         display: block;
     }
 

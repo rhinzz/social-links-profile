@@ -24,6 +24,19 @@ body {
   width: 100px;
   border-radius: 50%;
 }
+.profile-card .heading-block {
+  margin: 1.75rem 0;
+}
+.profile-card .heading-block h1 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin: 0.75rem 0;
+}
+.profile-card .heading-block h2 {
+  color: hsl(75, 94%, 57%);
+  font-size: 1rem;
+  margin: 0;
+}
 .profile-card a {
   display: block;
 }
