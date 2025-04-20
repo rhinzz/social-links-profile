@@ -5,7 +5,10 @@ $grey-700: hsl(0, 0%, 20%);
 $grey-800: hsl(0, 0%, 12%);
 $grey-900: hsl(0, 0%, 8%);
 
-html,
+html{
+    height: 100%;
+}
+
 body {
     background-color: $grey-900;
     color: $white;
@@ -14,7 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     margin: 0;
     padding: 0;
 }
@@ -23,24 +26,29 @@ body {
     background-color: $grey-800;
     border-radius: 1rem;
     text-align: center;
-    padding: 2rem;
-    width: 385px;
+    padding: 2rem 2.5rem;
+    margin: 1rem;
+    width: 330px;
 
     img {
-        width: 100px;
+        max-width: 100px;
         border-radius: 50%;
+    }
+
+    p {
+        margin: 2rem 0;
     }
 
     .heading-block {
         margin: 1.75rem 0;
 
-        h1{
+        h1 {
             font-size: 1.75rem;
             font-weight: 500;
             margin: 0.75rem 0;
         }
 
-        h2{
+        h2 {
             color: $green;
             font-size: 1rem;
             margin: 0;
@@ -48,12 +56,19 @@ body {
 
     }
 
-    a {
-        background-color: $grey-700;
-        color: $white;
-        display: block;
-        margin-bottom: 1rem;
-        padding: 1rem;
+    .link-block {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+
+        a {
+            background-color: $grey-700;
+            border-radius: 8px;
+            color: $white;
+            display: block;
+            margin-bottom: 1rem;
+            padding: 1rem;
+        }
     }
 
 }
